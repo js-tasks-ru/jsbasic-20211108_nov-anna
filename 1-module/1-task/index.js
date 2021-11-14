@@ -5,14 +5,13 @@ function factorial(n) {
   }
   return first;
 }
-console.log(factorial(10));
 
 
 function factorial2(m){
-  var total = 1;
+  let total = 1;
   while(m){
     total *= m--;
   }
   return total;
 }
-console.log(factorial2(10));
+
