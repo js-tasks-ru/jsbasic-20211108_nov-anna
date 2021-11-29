@@ -1,5 +1,3 @@
 function namify(users) {
-let newNames = [];
-users.map((item) => newNames.push(item.name));
-return newNames;
+    return users.map((item) => item.name);
 }
